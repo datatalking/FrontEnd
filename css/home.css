@@ -1,29 +1,40 @@
 .intro-text {
     max-width: 450px;
 }
-button {
+.orange-round {
     border-radius: 7em;
-    background-color: lightgray;
-    color: #7793AF;
+    background-color: #FF5500;
     font-family: "Avenir Next" !important;
     font-weight: bold;
     font-size: 22px;
     letter-spacing: 1px;
     padding: .4em 2em;
     margin: 1em auto;
-}
-button
-{
     outline:0px !important;
     -webkit-appearance:none;
 }
+
 .gray-square {
-    width: 20em;
-    height: 460px;
+  width: 300px;
+  height: 300px;
+  background-color: lightgray;
+  margin: 1em auto;
+}
+@media only screen and (min-width: 750px) {
+  .gray-square {
+    width: 50vw;
+    height: 60vh;
     background-color: lightgray;
     position: absolute;
     top: 150px;
     right: 100px;
     z-index: -1;
 
+  }
+}
+p {
+  color:#697689;
+}
+strong {
+  color:#FF5500;
 }
