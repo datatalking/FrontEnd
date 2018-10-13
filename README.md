@@ -1,7 +1,7 @@
 # Vet Spouse Jobs
 Front End App for Vet Spouse Jobs
 
-**Authors**: Diane Chiang, Michael Lenerblom, Earl Jay Caoile <br />
+**Authors**: Diane Chiang, Michael Lenerblom, Earl Jay Caoile, Andrew Schell <br />
 **Version**: 1.0.0
 
 ## Overview
@@ -25,8 +25,9 @@ The following is required to run the program.
 
 ## Architecture
 This application using blah blah blah <br />
-*Languages*: HTML, CSS, Python <br />
+*Languages*: Python, Flask, Javascript, Numpy, Pandas, sklearn, nltk, pdftotext, docx2txt <br />
 *Type of Applicaiton*: Web Application <br />
 
 ## Change Log
 10-12-2018 7:00 PM - initial scaffolding <br />
+10-13-2018 1:38 PM - updated README.MD
