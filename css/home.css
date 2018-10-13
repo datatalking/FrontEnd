@@ -1,0 +1,29 @@
+.intro-text {
+    max-width: 450px;
+}
+button {
+    border-radius: 7em;
+    background-color: lightgray;
+    color: #7793AF;
+    font-family: "Avenir Next" !important;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding: .4em 2em;
+    margin: 1em auto;
+}
+button
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+.gray-square {
+    width: 20em;
+    height: 460px;
+    background-color: lightgray;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    z-index: -1;
+
+}
