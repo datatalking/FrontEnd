@@ -34,7 +34,8 @@
     </div>
     <div class="intro-text">
       <p>
-        You are a <strong>squad leader</strong>.<br />You want to be a <strong>shift supervisor.</strong>
+        You are a <strong id="sl-typed"></strong><br />You want to be
+        a <strong id="shift-typed"></strong>
       </p>
 
       <p>
@@ -48,4 +49,17 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl"
     crossorigin="anonymous"></script>
   <script src="./index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <script>
+    var typed1 = new Typed('#sl-typed', {
+      strings: ["squad leader.^3000"],
+      typeSpeed: 100,
+      loop: true
+    });
+    var typed2 = new Typed('#shift-typed', {
+      strings: ["^3000shift supervisor.^500"],
+      typeSpeed: 100,
+      loop: true
+    });
+  </script>
 </body>
