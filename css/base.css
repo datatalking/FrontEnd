@@ -1,3 +1,6 @@
+body {
+  background-color:#F7F0DE;
+}
 main {
   min-height: 75rem;
   padding-top: 4.5rem;
@@ -6,10 +9,15 @@ main {
 }
 nav {
   border-bottom: solid gray 1px;
+  background-color: #231B54;
 }
 .navbar-nav > li{
   margin-left:2.25em;
   margin-right:2.25em;
+}
+
+.navbar-toggler{
+  color:white;
 }
 p {
   font-size: 24px;
@@ -18,5 +26,5 @@ h1 {
   font-family: "Avenir Next" !important;
   font-size: 64px;
   font-weight: bold;
-  color: #7793AF
+  color: #231B54;
 }
